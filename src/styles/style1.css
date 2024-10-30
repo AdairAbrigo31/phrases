@@ -24,6 +24,8 @@ footer {
 }
 
 .div-container-phrase{
+    margin: 5pt 10pt;
+    padding: 5pt;
     width: 100vh;
     height: 20vh;
     background-repeat: no-repeat;
@@ -50,5 +52,46 @@ footer {
     & p, b{
         font-size: 1.2rem;
         color: rgb(0, 0, 0);
+    }
+}
+
+
+/* Móviles grandes */
+@media screen and (max-width: 576px) {
+    .div-container-phrase {
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .phrase-content {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.2);
+        
+        & p {
+            font-size: 1rem;
+        }
+        
+        & b {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+/* Móviles pequeños */
+@media screen and (max-width: 360px) {
+    .div-container-phrase {
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .phrase-content {
+        width: 80%;        
+        & p {
+            font-size: 0.9rem;
+        }
+        
+        & b {
+            font-size: 0.8rem;
+        }
     }
 }

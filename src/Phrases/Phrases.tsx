@@ -5,19 +5,20 @@ function Phrases() {
     return (
         <body>
             <HeaderPhrases></HeaderPhrases>
-            {phrases.map((phrase, idx) => (
-                <main>
-                    <div style={{
-                            backgroundImage: `url("${phrase.cover}")`, 
-                        }}  
-                        className="div-container-phrase" key={idx}>
-                        <div className="phrase-content">
-                            <p>"{phrase.phrase}"</p>
-                            <b>{phrase.type} | {phrase.title} - {phrase.author}</b>
+            <main>
+                {phrases.map((phrase, idx) => (
+                        <div style={{
+                                backgroundImage: `url("${phrase.cover}")`, 
+                            }}  
+                            className="div-container-phrase" key={idx}>
+                            <div className="phrase-content">
+                                <p>"{phrase.phrase}"</p>
+                                <b>{phrase.type} | {phrase.title} - {phrase.author}</b>
+                            </div>
                         </div>
-                    </div>
-                </main>
-            ))}
+                    
+                ))}
+            </main>
             <FooterPhrases></FooterPhrases>
         </body>
     );

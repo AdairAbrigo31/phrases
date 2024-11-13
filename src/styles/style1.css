@@ -25,7 +25,6 @@ footer {
 
 .div-container-phrase{
     margin: 5pt 10pt;
-    padding: 5pt;
     width: 100vh;
     height: 20vh;
     background-repeat: no-repeat;
@@ -35,11 +34,11 @@ footer {
     justify-content: flex-end;
     align-items: center;
     border-radius: 10px;
-
 }
 
 .phrase-content {
     width: 50%;
+    padding: 20pt;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     box-shadow: 0 2px 4px #00000000;

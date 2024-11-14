@@ -1,11 +1,11 @@
+import '../styles/header.css'
+
 function HeaderPhrases() {
     return (
         <header>
-            <h2>Frases de muy buenos libros</h2>
-            <h4>Siempre he pensado en lo poderosas que pueden ser las palabras,
-                los sentimientos que en nosotros pueden generar,
-                el amor que puede hacer florecer o las guerras que puede librar.
-            </h4>
+            <h1>Frases que son memorables para mí</h1>
+            <h2>Siempre he pensado en lo poderosas que pueden ser las palabras</h2>
+            <h3>Los sentimientos que en nosotros pueden generar</h3>
         </header>
     )
 }

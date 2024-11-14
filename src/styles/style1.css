@@ -23,7 +23,7 @@ footer {
     padding: 5px;
 }
 
-.div-container-phrase{
+.div-container-phrase-pair{
     margin: 5px 10px;
     width: 80%;
     height: 20vh;
@@ -32,6 +32,21 @@ footer {
     background-position: center;
     display: flex;
     justify-content: flex-end;
+    justify-self: flex-end;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.div-container-phrase-odd{
+    margin: 5px 10px;
+    width: 80%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-start;
     align-items: center;
     border-radius: 10px;
 }

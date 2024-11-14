@@ -1,6 +1,7 @@
 import { phrases } from "../assets/phrases";
 import HeaderPhrases from "./HeaderPhrases";
 import FooterPhrases from "./FooterPhrases";
+import "../styles/style1.css"
 function Phrases() {
     return (
         <body>
@@ -10,7 +11,7 @@ function Phrases() {
                         <div style={{
                                 backgroundImage: `url("${phrase.cover}")`, 
                             }}  
-                            className="div-container-phrase" key={idx}>
+                            className={(idx % 2 == 0 ?  'div-container-phrase-pair' : 'div-container-phrase-odd')} key={idx}>
                             <div className="phrase-content">
                                 <p>"{phrase.phrase}"</p>
                                 <b>{phrase.type} | {phrase.title} - {phrase.author}</b>

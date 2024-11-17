@@ -1,4 +1,4 @@
-import { phrases } from "../assets/phrases";
+import { phrases } from "./listPhrases";
 import HeaderPhrases from "./HeaderPhrases";
 import FooterPhrases from "./FooterPhrases";
 import "../styles/body.css"

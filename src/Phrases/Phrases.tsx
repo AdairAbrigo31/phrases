@@ -1,7 +1,7 @@
 import { phrases } from "../assets/phrases";
 import HeaderPhrases from "./HeaderPhrases";
 import FooterPhrases from "./FooterPhrases";
-import "../styles/style1.css"
+import "../styles/body.css"
 function Phrases() {
     return (
         <body>

@@ -9,5 +9,7 @@ export const phrases:Array<Phrase> = [
         type: OriginPhrase.BOOK, title: "La canción de Aquiles", 
         author: "Madeline Miller", 
         cover: la_cancion_de_aquiles
-    }
+    },
+    {phrase: "No recuerdo haberte olvidado", type: OriginPhrase.MOVIE, title : "Memento", author: "Christopher Nolan", cover:memento},
+    
 ]

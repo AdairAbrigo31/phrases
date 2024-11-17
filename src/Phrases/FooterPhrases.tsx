@@ -2,7 +2,7 @@ function FooterPhrases(){
     return(
         <footer>
             <p>Hecho por Adair Abrigo</p>
-            <p>Para contacto su celular: 0989998043</p>
+            <p>Para contacto su correo: adairaxe31@hotmail.com</p>
         </footer>
     )
 }

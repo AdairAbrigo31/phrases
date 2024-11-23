@@ -20,7 +20,7 @@ function Phrases() {
                         </div>
                         <div className="div-reactions">
                             <button onClick={() => dispatch(giveLike(idx))}>Like</button>
-                            <span>{phrase.likes}</span>
+                            <span style={{fontSize : 20, color: "white"}}>{phrase.likes}</span>
                         </div>
                     </div>
                 ))}

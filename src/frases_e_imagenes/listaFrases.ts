@@ -3,6 +3,7 @@ import { OriginPhrase } from "../rulesPhrases/Ephrases"
 import memento from "./memento.webp"
 import  la_cancion_de_aquiles from "./la_cancion_de_aquiles.png"
 import nikelogo from "./nikelogo.png"
+import de_cero_a_uno from "./de_cero_a_uno.png"
 
 export const phrases:Array<Phrase> = [
     {phrase: "No recuerdo haberte olvidado", type: OriginPhrase.MOVIE, title : "Memento", author: "Christopher Nolan", cover:memento, likes:0},
@@ -21,13 +22,11 @@ export const phrases:Array<Phrase> = [
         cover:nikelogo,
         likes:0
     },
-    {phrase: "Dormí unas horas. Al despertar hacía un día frío y lluvioso. Me acerqué a la ventana y los árboles estaban empapados. La niebla lo envolvía todo." +
-        "El mundo era igual que el día anterior, que siempre. Nada había cambiado, y menos para mí. Y sin embargo, mi valor era de ciento setenta y ocho millones de dólares", 
+    {phrase: "Sólo en un futuro definido el dinero constituye un medio para un fin, no el fin en sí mismo", 
         type: OriginPhrase.BOOK, 
-        title : "Nunca te pares", 
-        author: "Phil Knight", 
-        cover:nikelogo,
+        title : "De cero a uno", 
+        author: "Peter Thiel", 
+        cover:de_cero_a_uno,
         likes:0
     },
-    
 ]

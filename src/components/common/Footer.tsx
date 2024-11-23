@@ -1,4 +1,4 @@
-function FooterPhrases(){
+function Footer(){
     return(
         <footer>
             <p>Hecho por Adair Abrigo</p>
@@ -7,4 +7,4 @@ function FooterPhrases(){
     )
 }
 
-export default FooterPhrases;
+export default Footer;

@@ -6,4 +6,5 @@ export interface Phrase {
     title: string;
     author: string;
     cover: string;
+    likes: number;
 };

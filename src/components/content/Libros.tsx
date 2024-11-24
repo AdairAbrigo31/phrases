@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store/store";
 import { OriginPhrase } from "../../rulesPhrases/Ephrases";
-import { giveLike, giveLikeFilter } from "../../store/slices/PhraseSlice";
+import { giveLikeFilter } from "../../store/slices/PhraseSlice";
 
 function Libros () {
     const phraseState = useSelector((state: RootState) => state.phraseStore);

@@ -4,6 +4,7 @@ import memento from "./memento.webp"
 import la_cancion_de_aquiles from "./la_cancion_de_aquiles.png"
 import nikelogo from "./nikelogo.png"
 import de_cero_a_uno from "./de_cero_a_uno.png"
+import el_camino_del_lobo from "./el_camino_del_lobo.webp"
 
 export const phrases: Array<Phrase> = [
     {
@@ -43,4 +44,13 @@ export const phrases: Array<Phrase> = [
         cover: de_cero_a_uno,
         likes: 0
     },
+    {
+        id: 5,
+        phrase: "Vender es todo en la vida. De hecho si no vendes, fracasarás. Le vendes a la gente la noción -es decir, la convences- de que tus ideas, tus conceptos o tus productos tienen sentido",
+        type: OriginPhrase.BOOK,
+        title: "El camino del lobo",
+        author: "Jordan Belfort",
+        cover: el_camino_del_lobo,
+        likes: 0
+    }
 ]

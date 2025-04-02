@@ -10,7 +10,7 @@ footer {
     text-align: center;
 }
 
-.div-container-phrase-pair{
+.div-container-phrase-pair {
     margin: 5px 10px;
     width: 80%;
     height: 25vh;
@@ -25,7 +25,7 @@ footer {
     border-radius: 10px;
 }
 
-.div-container-phrase-odd{
+.div-container-phrase-odd {
     margin: 5px 10px;
     width: 80%;
     height: 25vh;
@@ -49,8 +49,11 @@ footer {
     box-shadow: 0 2px 4px #00000000;
     backdrop-filter: blur(5px);
     margin: 0 20px;
-    & p, b{
-        font-size: clamp(1rem, 2vw, 1.2rem); /* 👈 Tamaño de fuente responsivo */
+
+    & p,
+    b {
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        /* 👈 Tamaño de fuente responsivo */
         color: black;
         margin: 0;
     }
@@ -62,6 +65,7 @@ footer {
     align-items: end;
     padding: 0 45px;
     align-self: flex-start;
+
     & span {
         padding-left: 5px;
     }
@@ -83,9 +87,12 @@ footer {
     .phrase-content {
         width: 80%;
         font-size: 8px;
-        & p, b{
-            font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1.25rem);            color: black;
+
+        & p,
+        b {
+            font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1.25rem);
+            color: black;
             margin: 0;
-        }        
+        }
     }
 }

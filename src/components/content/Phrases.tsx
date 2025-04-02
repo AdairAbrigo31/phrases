@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { giveLike } from "../../store/slices/PhraseSlice";
 import { RootState } from "../../store/store";
 import { useNavigate } from "react-router-dom";
+import "./../../index.css"
 
 function Phrases() {
 

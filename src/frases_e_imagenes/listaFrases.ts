@@ -5,6 +5,8 @@ import la_cancion_de_aquiles from "./la_cancion_de_aquiles.png"
 import nikelogo from "./nikelogo.png"
 import de_cero_a_uno from "./de_cero_a_uno.png"
 import el_camino_del_lobo from "./el_camino_del_lobo.webp"
+import la_rebelion_en_la_granja from "./la_rebelion_de_la_granaja.webp"
+import ellas_hablan from "./ellas_hablan.jpg"
 
 export const phrases: Array<Phrase> = [
     {
@@ -51,6 +53,24 @@ export const phrases: Array<Phrase> = [
         title: "El camino del lobo",
         author: "Jordan Belfort",
         cover: el_camino_del_lobo,
+        likes: 0
+    },
+    {
+        id: 6,
+        phrase: "Todos los animales son iguales, pero algunos son más iguales que otros",
+        type: OriginPhrase.BOOK,
+        title: "La rebelión en la granja",
+        author: "George Orwell",
+        cover: la_rebelion_en_la_granja,
+        likes: 0
+    },
+    {
+        id: 7,
+        phrase: "La única razón por la que sentimos la necesidad de someternos a nuestros maridos es porque ellos nos han dicho que la Biblia lo decreta así",
+        type: OriginPhrase.BOOK,
+        title: "Ellas hablan",
+        author: "Miriam Toews",
+        cover: ellas_hablan,
         likes: 0
     }
 ]

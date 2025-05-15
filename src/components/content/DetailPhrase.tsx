@@ -26,18 +26,23 @@ function DetailPhrase() {
     }, [phraseID]);
 
     return (
-        <>
-            <main>
-                <h2>Detalle de la frase</h2>
-                {isLoading ? (
-                    <p>Cargando...</p>
-                ) : phrase ? (
-                    <h2>{phrase.phrase}</h2>
+        <main className="main-container">
+            <h2>Detalle de la frase</h2>
+            {isLoading ? (
+                <p>Cargando...</p>
+            ) : phrase ?
+                (
+                    <div className="div-container-phrase" >
+                        <div className="phrase-content" >
+                            <p>"{phrase.phrase}"</p>
+                            <b>{phrase.type} | {phrase.title} - {phrase.author}</b>
+                        </div>
+
+                    </div>
                 ) : (
                     <p>No se encontró la frase</p>
                 )}
-            </main>
-        </>
+        </main>
     );
 }
 
